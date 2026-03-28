@@ -1,0 +1,190 @@
+{
+  "profile": {
+    "name": "Kumar Harsh",
+    "title": "Full-Stack Developer",
+    "subtitle": "& Software Engineer",
+    "description": "My name is Kumar Harsh. I am a passionate software engineer with a strong blend of technical expertise and problem-solving skills, dedicated to building robust applications and crafting innovative digital solutions.",
+    "email": "kharsh560@gmail.com",
+    "resumeUrl": "https://drive.google.com/file/d/1xVPsvDi9zJe9X_4c3WhX0gRu6JT0DG71/view?usp=sharing",
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/kharsh560",
+        "icon": "github"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/kharsh560",
+        "icon": "twitter"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/kharsh560/",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/kharsh560/",
+        "icon": "instagram"
+      }
+    ],
+    "skills": [
+      {
+        "category": "Frontend",
+        "items": ["HTML, CSS", "JavaScript", "Tailwind CSS", "React", "Next.js"]
+      },
+      {
+        "category": "Backend",
+        "items": ["Node.js", "Express.js", "MongoDB", "Mongoose", "Prisma", "Appwrite"]
+      },
+      {
+        "category": "Programming",
+        "items": ["C++", "Data Structures and Algorithms", "JavaScript", "Python", "OOPs"]
+      },
+      {
+        "category": "Tools",
+        "items": ["Git", "GitHub", "VS Code", "Postman", "Atlas / Neon"]
+      },
+      {
+        "category": "AI&ML",
+        "items": ["LLM - Training", "Prompt Engineering", "Machine Learning"]
+      },
+      {
+        "category": "Deployment",
+        "items": ["Deployment automation", "Service Orchestration", "Docker", "Kubernetes"]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "id": 1,
+      "role": "Full Stack Developer & LLM Engineer Intern",
+      "company": "Stealth Start-up",
+      "duration": "August 2024 -> Present",
+      "responsibilities": [
+        "Kubernetes Deployment and Service Orchestration : Deployed and managed containerized services using Kubernetes on Docker, optimizing ingress gateways, resource allocation, and service connections. Automated deployments with Helm and resolved pod-related issues for reliable microservice communication. Finally moved to MS Azure's AKS to automate cluster creation and deployment.",
+        "Full-Stack development : Developed a full-stack webapp from scratch using Next.js. with theme inspired from eraser.Io. Used Redux for state management and tackled the stale value issues caused by useEffect and useState due to JS closures. Handled prop drilling efficiently where using redux was not an option. Integrated \"ReactFlow\" to make interactive workflows with custom nodes. Used conditional rendering for loaders. Made custom Modals(pop-ups with other bg blurred). Implemented Next Auth via different methods including, email, GitHub and Google using Prisma as ODM and wrote backend schema, controllers, routes & API endpoints as separate express app.",
+        "LLM Training with Prompt Engineering : Integrated a multi-LLM model, akin to a custom LangChain, to generate recommendations, paired with a scoring engine that evaluates LLMs based on custom parameters to identify the top-performing model and a trained chatbot."
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Technical Executive at CSI-IW",
+      "company": "CSI-INNOWAVE",
+      "duration": "July 2024 -> Present",
+      "responsibilities": [
+        "Contributed in making CSI's website (https://www.csiinnowave.com/) using NEXT.Js, Aceternity UI and Tailwind.",
+        "Contributing to CSI's mobile app backend with Prisma, PostgreSQL, Node.js and Express, handling Auth & CRUD operations to implement voting mechanism, event & venue listing, and fest update notifications for 2000+(exp) users for the upcoming Techno Cultural fest by CSI.",
+        "Selected as one of 11 mentors to evaluate the first three rounds of the \"Code Genesis\" hackathon under \"Uncharted\", culminating in a finale at Microsoft Gurugram. Shortlisted 250+ teams, narrowing them down to 16 finalists. Additionally, worked with a team of 50 executives to organize and execute \"Zypher\", another flagship techno-cultural fest by CSI, successfully managing a footfall of over 1000 attendees.",
+        "Active Member of the Technical Team as a technical executive at CSI-INNOWAVE which is one of the oldest and most prestigious societies at Maharaja Agrasen Institute of Technology, Delhi, started in the year 2009."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Selected amongst #Top10 teams in NIT Patna's PitchTemberFest",
+      "description": "My team managed to secure a position under top 10 teams in NIT Patna's PitchTemberFest where in we had worked on our platform SyncSphere.",
+      "link": "https://www.linkedin.com/posts/kharsh560_top10-top100-syncsphere-activity-7185929396371816451-8X_4?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "id": 2,
+      "title": "Our solution got accepted in Google Solution Challenge under GDSC",
+      "description": "In the Google Solution Challenge, we elevated our project by integrating Google products like Gemini, enabling personalized responses for tax benefits based on income. We also received recognition by being shortlisted for the GDSC India regional Bootcamp, where we received personalized mentorship from Google Developers.",
+      "link": "https://www.linkedin.com/posts/kharsh560_top10-top100-syncsphere-activity-7185929396371816451-8X_4?utm_source=share&utm_medium=member_desktop"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Dept. BlogApp",
+      "description": "Full-featured blog application for the AI/ML department",
+      "image": "https://plus.unsplash.com/premium_photo-1720744786849-a7412d24ffbf?q=80&w=1618&auto=format&fit=crop",
+      "tech": ["MERN", "Redux Toolkit", "TinyMCE", "Cloudinary", "Multer", "MongoDB"],
+      "liveUrl": "https://mait-aimldept-blogapp.live/",
+      "githubUrl": "https://github.com/kharsh560/blog_app_aiml_dept"
+    },
+    {
+      "id": 2,
+      "title": "YouTube Backend",
+      "description": "Complete backend clone of YouTube with video management",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20191208170038/How-Does-YouTube-Store-And-Analyze-Such-Huge-Amount-of-Data.png",
+      "tech": ["Node.js", "Express", "MongoDB", "JWT", "Multer", "Aggregation"],
+      "githubUrl": "https://github.com/kharsh560/backend-mega-proj-by-kh"
+    },
+    {
+      "id": 3,
+      "title": "Chat App",
+      "description": "Real-time chat application with WebSockets",
+      "image": "https://plus.unsplash.com/premium_photo-1720032304972-1f1142e73253?q=80&w=1740&auto=format&fit=crop",
+      "tech": ["WebSockets", "Node.js", "Express", "MongoDB", "React", "Aggregation"],
+      "githubUrl": "https://github.com/kharsh560/ChatApp"
+    },
+    {
+      "id": 4,
+      "title": "To-Do List App",
+      "description": "Feature-rich todo app with local storage",
+      "image": "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&w=400",
+      "tech": ["JavaScript", "React", "Tailwind", "Redux Toolkit", "ContextApi"],
+      "liveUrl": "https://todo-with-localstorage-kh.netlify.app/"
+    },
+    {
+      "id": 5,
+      "title": "Code Playground",
+      "description": "Interactive code playground for learning and testing",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400",
+      "tech": ["React", "Tailwind CSS", "JavaScript", "Redux", "Logic"],
+      "liveUrl": "https://react-machine-coding-playground-by-kh.netlify.app/"
+    },
+    {
+      "id": 6,
+      "title": "Currency Converter",
+      "description": "Real-time currency conversion application",
+      "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=400",
+      "tech": ["React", "Tailwind CSS", "JavaScript", "API handling", "Content Mapping"],
+      "liveUrl": "https://kh-currency-changer.netlify.app/"
+    },
+    {
+      "id": 7,
+      "title": "Password Generator",
+      "description": "Secure password generator with customizable options",
+      "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400",
+      "tech": ["React", "JavaScript", "Tailwind CSS", "Prop Handling", "Logical Aptitude"],
+      "liveUrl": "https://kh-password-generator.netlify.app/"
+    },
+    {
+      "id": 8,
+      "title": "Dhun Music App",
+      "description": "Music streaming application with playback controls",
+      "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=400",
+      "tech": ["HTML5", "CSS3", "JavaScript"],
+      "liveUrl": "https://kharsh560.github.io/dhun_Feel_the_Music_BY_Kumar_Harsh/"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 8,
+      "date": "25th December 2024",
+      "title": "My First Internship Journey",
+      "content": "Hello people! Posting after a long time!\nYou know, apart from this public building trend, I had been noticing the trend of flaunting one's success stories too, be it regarding internship or jobs.\n\nSo, here's mine! I mean, why not if I have one? 😉\n\nI got my first internship, a paid one from a stealth startup based remotely! It was 25th August, 2024 when the final catchup discussion meet took place and both parties agreed upon to work together.\n\nDidn't even realize, it's been 4 months (September-December)! Indeed, as they say, time slips through, eluding our grasp!\n\nHow was it, Harsh?\nWell, lots of learning, lots of grinding, and tonnes of hard work was put in. Any difficulties? Hell yeah! Managing this internship, DSA, non-stop learning, my technical society's tasks (not everyday, but it is when it is), and last but not the least the college's practicals, assignments, mid-sems, end-sems, viva, and maintaining attendance has been like juggling multiple balls at once.\n\nNow, also talking about the people behind the startup. They are just amazing, fair, are having a great experience in top MNCs and most importantly are calm (hard to get, am lucky in this part).\n\nWhat am I working on?\nI'm working majorly in three domains, they are, full stack development (NEXT + MEN), LLM prompt engineering (in order to mould the model to do a task perfectly all by itself, essentially automating it), and lastly, some hidden tasks (ofc can't speak in public regarding this one 😅)\n\nSo! This was it, enough showcasing.\nLastly, I want to add, just keep going on, everyone has their own trajectory, own speeds and own capabilities, but the \"result\" is what matters. Keep learning, keep applying, keep failing, keep repeating! As you all know, it's majorly a luck game for those who have done all the hard work. Hence, never stop. Keeping your phones down and spend hours sitting and coding for your own benefit. Only this will work, nothing else. All these regular partying, gathering, watching reels for hours won't help none!\n\nWishing you all good luck for your \"The first story\" and wish me one too as there's a long journey to cover.\n\nLastly thanking @Hiteshdotcom @CodeWithHarry1 @Piyush_eon @lovebabbar3 @Luvk1412 ... for this!"
+    },
+    {
+      "id": 7,
+      "date": "25th April 2024",
+      "title": "React Projects Milestone",
+      "content": "Hello guys, I am here to share a quick update on my React playlist! I have made three basic, but awesome and conceptually important projects on React using concepts like React Hooks, React Custom Hooks, React Components, UseEffect Hook, React Props and much more. All these concepts have been covered in just 11 out of 34 lectures by Hitesh in his Chai aur React playlist.\nSo it would be fun to see what next lecture have to offer!\n\nAlso I have hosted the projects made on Netlify! Here are the links to them:\n1) BG Changer in React\n2) Random Password Generator\n3) Currency Converter"
+    },
+    {
+      "id": 6,
+      "date": "22nd April 2024",
+      "title": "PitchTemberFest & Google Solution Challenge",
+      "content": "Today, I am going to share two of my team's achievements!\n\nI along with my team members Abhyuday Pratap Singh, Aditya Jaiswal and Akhilesh Malik, am excited to share our experiences from two major events:\n\n1) The Hackathon PitchTemberFest at the National Institute of Technology, Patna, and 2) The Google Solution Challenge 2024 (GDSC), which were held in December and February respectively!\n\n#1 At PitchTemberFest, we had the privilege of engaging with inspiring founders and securing a spot in the #Top10, gaining valuable insights that shaped our project profoundly.\n\n#2 In the Google Solution Challenge, we elevated our project by integrating Google products like Gemini, enabling personalized responses for tax benefits based on income. Although we didn't make it to the #Top100, presenting our project was a significant milestone. We also received recognition by being shortlisted for the GDSC India regional Bootcamp, where we received personalized mentorship from Google Developers.\n\nAbout our project:\nOur project, Sync Sphere, addresses the disconnect between companies willing to give back, NGOs in need of funding, and individuals wanting to contribute to social causes.\nOur primary focus is on SDG Goal 17 - Partnership of Goals. Sync Sphere acts as a centralized platform that simplifies CSR funding, provides diverse project opportunities, and engages volunteers for maximum social impact.\n\nKey Features of Sync Sphere:\nKey features of Sync Sphere include Gemini Chatbot Integration for personalized tax benefits calculation, the ability for NGOs and individuals to create and publish projects, seamless PayPal payment integration for easy contributions, swift access to CSR documents for companies evaluating projects, and the option for NGOs to accept or reject funding from companies based on their interests.\n\nWhile our journey with Sync Sphere didn't land us in the Top 100, the experience of building it has been incredibly rewarding and educational. Sync Sphere is still in development, and if you share our passion for social impact, we'd love to connect and collaborate!"
+    },
+    {
+      "id": 5,
+      "date": "15th March 2024",
+      "title": "MERN Stack Journey & Major Milestones",
+      "content": "Well hello guys! Its been long time no see! Sorry, I couldn't update this blog section in recent times, was occupied in many other stuffs. like since last update I have successfully started many things and finished a few too!\n\n1) I finished 85% of the Chai aur Javascript playlist by none other than Hitesh Choudhary.\n2) I finally choose a platform to study DSA completely, and its GFG's course by none other than Sandeep Jain. Completed 6 modules (uptil searching).\n3) Started Chai aur React, and Chai aur backend playlists Simultaneously, but focusing on React first! Completed till L6 in Backend and till L11 in React. Of course none other than Hitesh Choudhary!\n\nSee, after studying Java Script in depth from this playlist called \"Chai aur Javascript\" taught by none other than Hitesh Choudhary, I worked on some basic projects.\n\nThen, I took part in some hackathons wherein I explored the MERN stack, but with a different pedagogy, that is \"Implementing, then studying in-depth\". So I worked on multiple projects on MERN without studying concepts in-depth initially. It was just documentation, some reference videos, and 'implementation' along with a blurry knowledge of the logic behind them.\n\nAnyway, as a major project to explore MERN, I implemented a full-fledged one-to-one chat app based on MERN stack with the help of a playlist by Piyush Agarwal.\nDoing so, I got to know the \"overall flow\" of how these technologies work.\n\nNow, I am doing \"Backend\" and \"React\" on the channel \"Chai aur Code\" by the amazing tutor, Hitesh Choudhary. Yes, I am able to do both of these together because I now have a very clear Idea of how things work. Now I am looking for the \"Why\" aspect of it. Even, I feel that after having hands-on experience with these technologies, I am able to grasp things faster and with much relatability, which goes missing with the other path of \"studying, then implementing\".\n\nAlso, most recently, I got to explore Google's Gemini. I integrated it into our project Sync-Sphere where I trained it to act as a virtual assistant in chatbot format, solving the queries of the users related to our platform.\n\nSo, yeah, this is it. About my latest work. I will now keep posting my milestones regularly in this Blog section."
+    }
+  ]
+}
