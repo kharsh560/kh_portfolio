@@ -1,36 +1,36 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, JetBrains_Mono } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-mono',
+  weight: ['400', '500', '600'],
+});
 
 export const metadata: Metadata = {
-  title: 'Kumar Harsh - Full-Stack Developer & Software Engineer',
-  description: 'Portfolio of Kumar Harsh, a passionate software engineer with expertise in full-stack development, AI/ML, and problem-solving.',
+  title: 'Kumar Harsh — Full-Stack Developer & Software Engineer',
+  description:
+    'Portfolio of Kumar Harsh, a passionate software engineer with expertise in full-stack development, AI/ML, and problem-solving.',
   openGraph: {
-    images: [
-      {
-        url: 'https://bolt.new/static/og_default.png',
-      },
-    ],
+    images: [{ url: 'https://bolt.new/static/og_default.png' }],
   },
   twitter: {
     card: 'summary_large_image',
-    images: [
-      {
-        url: 'https://bolt.new/static/og_default.png',
-      },
-    ],
+    images: [{ url: 'https://bolt.new/static/og_default.png' }],
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`dark ${inter.variable} ${jetbrainsMono.variable}`}>
       <body className={inter.className}>{children}</body>
     </html>
   );
