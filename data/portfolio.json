@@ -1,11 +1,13 @@
 {
   "profile": {
     "name": "Kumar Harsh",
-    "title": "Full-Stack Developer",
-    "subtitle": "& Software Engineer",
-    "description": "My name is Kumar Harsh. I am a passionate software engineer with a strong blend of technical expertise and problem-solving skills, dedicated to building robust applications and crafting innovative digital solutions.",
+    "title": "Software Engineer",
+    "subtitle": "Full Stack & GenAI Developer",
+    "description": "A results-driven software engineer with a strong foundation in Data Structures and Algorithms (C++) and System Design, with hands-on experience in MERN-based full-stack development. Skilled in integrating AI tools into utility apps for business use cases. Demonstrates adaptability and ownership by architecting and implementing end-to-end systems in fast-paced startup environments.",
     "email": "kharsh560@gmail.com",
-    "resumeUrl": "https://drive.google.com/file/d/1xVPsvDi9zJe9X_4c3WhX0gRu6JT0DG71/view?usp=sharing",
+    "phone": "+91 9771140694",
+    "location": "Delhi",
+    "resumeUrl": "https://drive.google.com/file/d/1luOSOMdYLoK2G0TyK16I3dlkva9zJ7qx/view?usp=sharing",
     "socials": [
       {
         "name": "GitHub",
@@ -30,138 +32,261 @@
     ],
     "skills": [
       {
+        "category": "Core",
+        "items": [
+          "Data Structures and Algorithms",
+          "System Design",
+          "OOPs"
+        ]
+      },
+      {
         "category": "Frontend",
-        "items": ["HTML, CSS", "JavaScript", "Tailwind CSS", "React", "Next.js"]
+        "items": [
+          "React.js",
+          "Next.js",
+          "JavaScript",
+          "TypeScript",
+          "Tailwind CSS"
+        ]
       },
       {
         "category": "Backend",
-        "items": ["Node.js", "Express.js", "MongoDB", "Mongoose", "Prisma", "Appwrite"]
+        "items": [
+          "Node.js",
+          "Express.js",
+          "Mongoose",
+          "Prisma",
+          "Appwrite"
+        ]
       },
       {
         "category": "Programming",
-        "items": ["C++", "Data Structures and Algorithms", "JavaScript", "Python", "OOPs"]
+        "items": [
+          "C++",
+          "JavaScript",
+          "Python"
+        ]
       },
       {
-        "category": "Tools",
-        "items": ["Git", "GitHub", "VS Code", "Postman", "Atlas / Neon"]
+        "category": "AI & Workflow",
+        "items": [
+          "AI-tools",
+          "Agentic workflow",
+          "Prompt Engineering",
+          "LLM Training"
+        ]
       },
       {
-        "category": "AI&ML",
-        "items": ["LLM - Training", "Prompt Engineering", "Machine Learning"]
+        "category": "Infrastructure",
+        "items": [
+          "Docker",
+          "Kubernetes",
+          "Azure AKS",
+          "Git",
+          "GitHub"
+        ]
       },
       {
-        "category": "Deployment",
-        "items": ["Deployment automation", "Service Orchestration", "Docker", "Kubernetes"]
+        "category": "Platforms",
+        "items": [
+          "Redux",
+          "Netlify"
+        ]
       }
     ]
   },
   "experience": [
     {
       "id": 1,
-      "role": "Full Stack Developer & LLM Engineer Intern",
-      "company": "Stealth Start-up",
-      "duration": "August 2024 -> Present",
+      "role": "SDE Intern (GenAI + Data Team)",
+      "company": "FreechargeBiz (By Axis Bank)",
+      "duration": "January 2026 - Present",
       "responsibilities": [
-        "Kubernetes Deployment and Service Orchestration : Deployed and managed containerized services using Kubernetes on Docker, optimizing ingress gateways, resource allocation, and service connections. Automated deployments with Helm and resolved pod-related issues for reliable microservice communication. Finally moved to MS Azure's AKS to automate cluster creation and deployment.",
-        "Full-Stack development : Developed a full-stack webapp from scratch using Next.js. with theme inspired from eraser.Io. Used Redux for state management and tackled the stale value issues caused by useEffect and useState due to JS closures. Handled prop drilling efficiently where using redux was not an option. Integrated \"ReactFlow\" to make interactive workflows with custom nodes. Used conditional rendering for loaders. Made custom Modals(pop-ups with other bg blurred). Implemented Next Auth via different methods including, email, GitHub and Google using Prisma as ODM and wrote backend schema, controllers, routes & API endpoints as separate express app.",
-        "LLM Training with Prompt Engineering : Integrated a multi-LLM model, akin to a custom LangChain, to generate recommendations, paired with a scoring engine that evaluates LLMs based on custom parameters to identify the top-performing model and a trained chatbot."
+        "Building agentic AI systems - Orchestrators & Agents."
       ]
     },
     {
       "id": 2,
-      "role": "Technical Executive at CSI-IW",
-      "company": "CSI-INNOWAVE",
-      "duration": "July 2024 -> Present",
+      "role": "SDE Intern",
+      "company": "Brivio",
+      "duration": "April 2025 – June 2025 | October 2025 – Present",
       "responsibilities": [
-        "Contributed in making CSI's website (https://www.csiinnowave.com/) using NEXT.Js, Aceternity UI and Tailwind.",
-        "Contributing to CSI's mobile app backend with Prisma, PostgreSQL, Node.js and Express, handling Auth & CRUD operations to implement voting mechanism, event & venue listing, and fest update notifications for 2000+(exp) users for the upcoming Techno Cultural fest by CSI.",
-        "Selected as one of 11 mentors to evaluate the first three rounds of the \"Code Genesis\" hackathon under \"Uncharted\", culminating in a finale at Microsoft Gurugram. Shortlisted 250+ teams, narrowing them down to 16 finalists. Additionally, worked with a team of 50 executives to organize and execute \"Zypher\", another flagship techno-cultural fest by CSI, successfully managing a footfall of over 1000 attendees.",
-        "Active Member of the Technical Team as a technical executive at CSI-INNOWAVE which is one of the oldest and most prestigious societies at Maharaja Agrasen Institute of Technology, Delhi, started in the year 2009."
+        "Developed a production-grade Chrome extension for job-form autofill using Vite for the React-based frontend components.",
+        "Led the development of interviewing and report-generation products for a coffee-industry client with FY 2024 revenue of USD 24 million.",
+        "Reduced monthly infrastructure costs by 89% through an SFU-based media pipeline with LiveKit, enabling profitable scaling by side-lining video transcoding.",
+        "Built a custom component to render all tracks simultaneously and engineered a scalable AI-powered agent with a low-latency STT-LLM-TTS flow using LiveKit.",
+        "Improved candidate evaluation by building a full-stack React.js/Next.js platform with ShadCN components, live code editor, AI agent integration, feedback system, responsive UI, pagination, and client-side filtering.",
+        "Ensured 100% data integrity during a critical system transition by architecting a Node.js microservice to automate backup of interview recordings from a third-party S3 bucket to an internal S3 bucket.",
+        "Integrated Amazon Rekognition for candidate verification."
+      ]
+    },
+    {
+      "id": 3,
+      "role": "SDE Intern",
+      "company": "Stealth Start-up",
+      "duration": "September 2024 – March 2025",
+      "responsibilities": [
+        "Streamlined the software delivery lifecycle by automating end-to-end deployment pipelines for microservices using Kubernetes on Docker and Helm charts, then transitioning the system to Azure AKS.",
+        "Improved recommendation quality by engineering a multi-LLM recommendation engine backed by a trained chatbot for requirement gathering and a custom scoring engine to select the top-performing model.",
+        "Increased user trust and system transparency by building a full-stack Next.js/Express application with Redux state management, interactive workflows using ReactFlow, secure NextAuth/Prisma authentication, and real-time deployment status updates with Socket.io."
+      ]
+    },
+    {
+      "id": 4,
+      "role": "Technical Executive",
+      "company": "Computer Society of India, MAIT chapter (CSI-IW)",
+      "duration": "July 2024 – September 2025",
+      "responsibilities": [
+        "Contributed to CSI’s mobile app backend by implementing a voting mechanism and exploring communication protocols like Server-Sent Events and Long Polling to optimize voting efficiency.",
+        "Contributed to CSI’s website using Next.js, Aceternity UI, and Tailwind.",
+        "Selected as one of 11 mentors to evaluate the first three rounds of the 'Code Genesis' hackathon under 'Uncharted', culminating in a finale at Microsoft Gurugram and narrowing 250+ teams down to 16 finalists.",
+        "Worked with a team of 50 executives to organize and execute 'Zypher', managing a footfall of over 1000 attendees."
       ]
     }
   ],
   "achievements": [
     {
       "id": 1,
-      "title": "Selected amongst #Top10 teams in NIT Patna's PitchTemberFest",
-      "description": "My team managed to secure a position under top 10 teams in NIT Patna's PitchTemberFest where in we had worked on our platform SyncSphere.",
+      "title": "Top 10 finalist at NIT Patna PitchTemberFest",
+      "description": "Secured a position among the top 10 teams with the Sync Sphere project.",
       "link": "https://www.linkedin.com/posts/kharsh560_top10-top100-syncsphere-activity-7185929396371816451-8X_4?utm_source=share&utm_medium=member_desktop"
     },
     {
       "id": 2,
-      "title": "Our solution got accepted in Google Solution Challenge under GDSC",
-      "description": "In the Google Solution Challenge, we elevated our project by integrating Google products like Gemini, enabling personalized responses for tax benefits based on income. We also received recognition by being shortlisted for the GDSC India regional Bootcamp, where we received personalized mentorship from Google Developers.",
+      "title": "Selected for Google Solution Challenge / GDSC Bootcamp",
+      "description": "Recognized for Sync Sphere and shortlisted for the GDSC India regional Bootcamp with mentorship from Google Developers.",
       "link": "https://www.linkedin.com/posts/kharsh560_top10-top100-syncsphere-activity-7185929396371816451-8X_4?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "id": 3,
+      "title": "Winner at BPIT Malhaar Ideathon",
+      "description": "Sync Sphere was recognized as a winning solution at BPIT Malhaar Ideathon."
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Dept. BlogApp",
-      "description": "Full-featured blog application for the AI/ML department",
+      "title": "Content Sharing & Interaction Platform",
+      "description": "A full-stack MERN blog app for the AI & ML department with role-based access, rich text editing, AI summaries, and secure media uploads.",
       "image": "https://plus.unsplash.com/premium_photo-1720744786849-a7412d24ffbf?q=80&w=1618&auto=format&fit=crop",
-      "tech": ["MERN", "Redux Toolkit", "TinyMCE", "Cloudinary", "Multer", "MongoDB"],
+      "tech": [
+        "MERN",
+        "Redux Toolkit",
+        "TinyMCE",
+        "Cloudinary",
+        "Multer",
+        "MongoDB",
+        "Gemini AI"
+      ],
       "liveUrl": "https://mait-aimldept-blogapp.live/",
       "githubUrl": "https://github.com/kharsh560/blog_app_aiml_dept"
     },
     {
       "id": 2,
-      "title": "YouTube Backend",
-      "description": "Complete backend clone of YouTube with video management",
-      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20191208170038/How-Does-YouTube-Store-And-Analyze-Such-Huge-Amount-of-Data.png",
-      "tech": ["Node.js", "Express", "MongoDB", "JWT", "Multer", "Aggregation"],
-      "githubUrl": "https://github.com/kharsh560/backend-mega-proj-by-kh"
-    },
-    {
-      "id": 3,
       "title": "Chat App",
-      "description": "Real-time chat application with WebSockets",
+      "description": "A full-stack chat application using Next.js with Prisma, NextAuth, and WebSocket-enabled real-time messaging.",
       "image": "https://plus.unsplash.com/premium_photo-1720032304972-1f1142e73253?q=80&w=1740&auto=format&fit=crop",
-      "tech": ["WebSockets", "Node.js", "Express", "MongoDB", "React", "Aggregation"],
+      "tech": [
+        "Next.js",
+        "Prisma",
+        "NextAuth",
+        "WebSockets",
+        "React",
+        "MongoDB"
+      ],
       "githubUrl": "https://github.com/kharsh560/ChatApp"
     },
     {
+      "id": 3,
+      "title": "Collaborative Kanban Board",
+      "description": "A real-time collaborative board with custom WebSocket event flows, secure handshakes, and reliable persistence for high-frequency updates.",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400",
+      "tech": [
+        "WebSockets",
+        "Supabase",
+        "PostgreSQL",
+        "Sequelize",
+        "React",
+        "Node.js"
+      ],
+      "githubUrl": "https://github.com/kharsh560/kanban_board_realtime_ine_assignment"
+    },
+    {
       "id": 4,
-      "title": "To-Do List App",
-      "description": "Feature-rich todo app with local storage",
-      "image": "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&w=400",
-      "tech": ["JavaScript", "React", "Tailwind", "Redux Toolkit", "ContextApi"],
-      "liveUrl": "https://todo-with-localstorage-kh.netlify.app/"
+      "title": "Sync Sphere",
+      "description": "A social-impact platform connecting companies, NGOs, and individuals, recognized by GDSC India, NIT Patna PitchTemberFest, and BPIT Malhaar Ideathon.",
+      "image": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "tech": [
+        "Gemini",
+        "PayPal",
+        "Next.js",
+        "MERN",
+        "CSR",
+        "Chatbot"
+      ],
+      "githubUrl": "https://github.com/kharsh560/Sync-Sphere"
     },
     {
       "id": 5,
-      "title": "Code Playground",
-      "description": "Interactive code playground for learning and testing",
-      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400",
-      "tech": ["React", "Tailwind CSS", "JavaScript", "Redux", "Logic"],
-      "liveUrl": "https://react-machine-coding-playground-by-kh.netlify.app/"
+      "title": "YouTube Backend",
+      "description": "Complete backend clone of YouTube with video management",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20191208170038/How-Does-YouTube-Store-And-Analyze-Such-Huge-Amount-of-Data.png",
+      "tech": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "Multer",
+        "Aggregation"
+      ],
+      "githubUrl": "https://github.com/kharsh560/backend-mega-proj-by-kh"
     },
     {
       "id": 6,
-      "title": "Currency Converter",
-      "description": "Real-time currency conversion application",
-      "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=400",
-      "tech": ["React", "Tailwind CSS", "JavaScript", "API handling", "Content Mapping"],
-      "liveUrl": "https://kh-currency-changer.netlify.app/"
-    },
+      "title": "Code Playground",
+      "description": "Interactive code playground for learning and testing",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400",
+      "tech": [
+        "React",
+        "Tailwind CSS",
+        "JavaScript",
+        "Redux",
+        "Logic"
+      ],
+      "liveUrl": "https://react-machine-coding-playground-by-kh.netlify.app/"
+    }
+  ],
+  "education": [
     {
-      "id": 7,
-      "title": "Password Generator",
-      "description": "Secure password generator with customizable options",
-      "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&w=400",
-      "tech": ["React", "JavaScript", "Tailwind CSS", "Prop Handling", "Logical Aptitude"],
-      "liveUrl": "https://kh-password-generator.netlify.app/"
-    },
+      "degree": "Bachelor of Technology in Computer Science (CSE-AI&ML)",
+      "institution": "Maharaja Agrasen Institute of Technology, Delhi",
+      "duration": "Nov 2022 – Jul 2026",
+      "details": [
+        "CGPA: 8.526 (till 6th Sem)",
+        "Class 12th: 86.80% (CBSE)",
+        "Class 10th: 94.20% (CBSE)"
+      ]
+    }
+  ],
+  "coCurricular": [
     {
-      "id": 8,
-      "title": "Dhun Music App",
-      "description": "Music streaming application with playback controls",
-      "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=400",
-      "tech": ["HTML5", "CSS3", "JavaScript"],
-      "liveUrl": "https://kharsh560.github.io/dhun_Feel_the_Music_BY_Kumar_Harsh/"
+      "role": "Technical Executive",
+      "organization": "Computer Society of India, MAIT chapter (CSI-IW)",
+      "duration": "July 2024 – September 2025",
+      "highlights": [
+        "Contributed to CSI’s mobile app backend and website.",
+        "Mentored Code Genesis hackathon rounds and helped shortlist 250+ teams to 16 finalists.",
+        "Helped organize Zypher and managed a footfall of over 1000 attendees."
+      ]
     }
   ],
   "blogs": [
+    {
+      "id": 9,
+      "date": "19th January 2026",
+      "title": "Starting My Journey at FreechargeBiz",
+      "content": "I'm excited to share that I've started a new role as a Software Development Engineering Intern (Data + GenAI team) at FreechargeBiz.\n\nThis milestone reflects the learning, mentorship, and experiences that have shaped my journey so far. I'm truly grateful for everyone who has supported me along the way.\n\nI'm looking forward to working on real-world problems at the intersection of data and Generative AI, building impactful solutions, and continuing to grow in this new chapter."
+    },
     {
       "id": 8,
       "date": "25th December 2024",

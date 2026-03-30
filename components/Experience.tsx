@@ -82,7 +82,7 @@ export default function Experience() {
                             border: '1px solid hsl(250 84% 67% / 0.2)',
                           }}
                         >
-                          {idx === 0 ? 'Current' : 'Active'}
+                          {idx === 0 ? 'Current' : 'Earlier'}
                         </span>
                       </div>
 

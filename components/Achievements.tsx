@@ -65,15 +65,6 @@ export default function Achievements() {
                   <h3 className="text-base sm:text-lg font-semibold text-foreground leading-snug">
                     {achievement.title}
                   </h3>
-                  <div className="flex items-center gap-1 flex-shrink-0">
-                    {[...Array(3)].map((_, i) => (
-                      <Star
-                        key={i}
-                        size={12}
-                        className="fill-amber-400 text-amber-400 opacity-80"
-                      />
-                    ))}
-                  </div>
                 </div>
 
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">
@@ -96,7 +87,7 @@ export default function Achievements() {
 
               {/* Number badge */}
               <div
-                className="absolute top-5 right-5 w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold opacity-15 group-hover:opacity-30 transition-opacity"
+                className="absolute top-5 right-5 w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold"
                 style={{
                   background: 'hsl(45 93% 58% / 0.2)',
                   color: 'hsl(45 93% 58%)',
