@@ -91,9 +91,34 @@ export default function Hero() {
             </h2>
           </div>
 
-          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            {profile.description}
-          </p>
+            <div
+              className="max-w-[520px] mx-auto rounded-2xl px-9 py-7"
+              style={{
+                background: "rgba(255,255,255,0.04)",
+                border: "0.5px solid rgba(255,255,255,0.08)",
+              }}
+            >
+              <p
+                className="text-base sm:text-lg text-center"
+                style={{
+                  color: "rgba(255,255,255,0.28)",
+                  fontWeight: 300,
+                  lineHeight: 2,
+                  letterSpacing: "0.01em",
+                }}
+              >
+                <span style={{ color: "rgba(255,255,255,0.85)", fontWeight: 500, letterSpacing: 0 }}>Results-driven</span>
+                {" "}professional with a strong foundation in{" "}
+                <span style={{ color: "rgba(255,255,255,0.85)", fontWeight: 500, letterSpacing: 0 }}>System Design</span>
+                {" "}and expertise in integrating{" "}
+                <span style={{ color: "rgba(255,255,255,0.85)", fontWeight: 500, letterSpacing: 0 }}>AI-driven solutions</span>
+                {" "}into business applications. Proven to take{" "}
+                <span style={{ color: "rgba(255,255,255,0.85)", fontWeight: 500, letterSpacing: 0 }}>full ownership</span>
+                {" "}and architect{" "}
+                <span style={{ color: "rgba(255,255,255,0.85)", fontWeight: 500, letterSpacing: 0 }}>end-to-end systems</span>
+                {" "}across fast-paced startup ecosystems and large-scale enterprise environments.
+              </p>
+            </div>
 
           {/* CTA buttons */}
           <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
