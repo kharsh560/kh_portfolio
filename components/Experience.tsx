@@ -86,15 +86,28 @@ export default function Experience() {
                         </span>
                       </div>
 
-                      <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
-                        <span className="flex items-center gap-1.5 font-medium text-foreground/80">
-                          <MapPin size={13} />
-                          {exp.company}
-                        </span>
-                        <span className="flex items-center gap-1.5">
-                          <Calendar size={13} />
-                          {exp.duration}
-                        </span>
+                      <div className="flex flex-col gap-2 text-sm text-muted-foreground">
+                        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
+                          <span className="flex flex-wrap items-center gap-1.5 font-medium text-foreground/80">
+                            <MapPin size={13} />
+                            {exp.company}
+                          </span>
+                          <span className="flex items-center gap-1.5">
+                            <Calendar size={13} />
+                            {exp.duration}
+                          </span>
+                        </div>
+
+                        {exp.companyLink ? (
+                          <a
+                            href={exp.companyLink}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex items-center justify-center self-start rounded-full border border-primary/25 bg-primary/10 px-2 py-0.5 text-[10px] font-medium text-primary hover:bg-primary/15 transition-colors sm:px-2.5 sm:py-1 sm:text-[11px]"
+                          >
+                            company&apos;s website
+                          </a>
+                        ) : null}
                       </div>
                     </div>
 

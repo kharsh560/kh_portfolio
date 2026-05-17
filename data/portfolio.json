@@ -3,10 +3,10 @@
     "name": "Kumar Harsh",
     "title": "Software Engineer",
     "subtitle": "Full Stack & GenAI Developer",
-    "description": "A results-driven software engineer with a strong foundation in Data Structures and Algorithms (C++) and System Design, with hands-on experience in MERN-based full-stack development. Skilled in integrating AI tools into utility apps for business use cases. Demonstrates adaptability and ownership by architecting and implementing end-to-end systems in fast-paced startup environments.",
+    "description": "Results-driven professional with a strong foundation in System Design and expertise in integrating AI-driven solutions into business applications. Proven ability to take ownership and architect end-to-end systems across fast-paced startup ecosystems and large-scale enterprise environments.",
     "email": "kharsh560@gmail.com",
     "phone": "+91 9771140694",
-    "location": "Delhi",
+    "location": "Noida, India 🇮🇳",
     "resumeUrl": "https://drive.google.com/file/d/1luOSOMdYLoK2G0TyK16I3dlkva9zJ7qx/view?usp=sharing",
     "socials": [
       {
@@ -34,46 +34,35 @@
       {
         "category": "Core",
         "items": [
-          "Data Structures and Algorithms",
-          "System Design",
-          "OOPs"
-        ]
-      },
-      {
-        "category": "Frontend",
-        "items": [
-          "React.js",
-          "Next.js",
-          "JavaScript",
-          "TypeScript",
-          "Tailwind CSS"
+          "Systems Thinking",
+          "Agentic Workflows",
+          "Microservice Architecture",
+          "Authentication Systems",
+          "Version Controls: Git & Github"
         ]
       },
       {
         "category": "Backend",
         "items": [
+          "FastAPI",
           "Node.js",
           "Express.js",
-          "Mongoose",
-          "Prisma",
-          "Appwrite"
-        ]
-      },
-      {
-        "category": "Programming",
-        "items": [
-          "C++",
-          "JavaScript",
-          "Python"
+          "ODM: Mongoose",
+          "ORM: Prisma",
+          "BAAS: Appwrite, NeonDB, Firebase",
+          "Redis",
+          "Websockets: WS & Socket.io",
+          "Validation engines: ZOD"
         ]
       },
       {
         "category": "AI & Workflow",
         "items": [
-          "AI-tools",
-          "Agentic workflow",
+          "Google ADK",
+          "Livekit & Vapi",
           "Prompt Engineering",
-          "LLM Training"
+          "CV Model: YOLO",
+          "Textract, Google Document AI"
         ]
       },
       {
@@ -81,16 +70,28 @@
         "items": [
           "Docker",
           "Kubernetes",
+          "Digital Ocean",
           "Azure AKS",
-          "Git",
-          "GitHub"
+          "AWS: EC2, S3, Rekognition, Textract"
         ]
       },
       {
-        "category": "Platforms",
+        "category": "Frontend",
         "items": [
+          "React.js",
+          "Next.js",
           "Redux",
-          "Netlify"
+          "Tailwind CSS",
+          "Streamlit"
+        ]
+      },
+      {
+        "category": "Programming",
+        "items": [
+          "C++",
+          "JavaScript",
+          "TypeScript",
+          "Python"
         ]
       }
     ]
@@ -100,6 +101,7 @@
       "id": 1,
       "role": "SDE Intern (GenAI + Data Team)",
       "company": "FreechargeBiz (By Axis Bank)",
+      "companyLink": "https://careers.freechargebiz.in/",
       "duration": "January 2026 - Present",
       "responsibilities": [
         "Building agentic AI systems - Orchestrators & Agents."
@@ -109,7 +111,8 @@
       "id": 2,
       "role": "SDE Intern",
       "company": "Brivio",
-      "duration": "April 2025 – June 2025 | October 2025 – Present",
+      "companyLink": "https://brivio.io/",
+      "duration": "April 2025 – June 2025 | October 2025 – December 2025",
       "responsibilities": [
         "Developed a production-grade Chrome extension for job-form autofill using Vite for the React-based frontend components.",
         "Led the development of interviewing and report-generation products for a coffee-industry client with FY 2024 revenue of USD 24 million.",
@@ -178,7 +181,6 @@
         "MongoDB",
         "Gemini AI"
       ],
-      "liveUrl": "https://mait-aimldept-blogapp.live/",
       "githubUrl": "https://github.com/kharsh560/blog_app_aiml_dept"
     },
     {
